@@ -18,7 +18,7 @@ const BlogPage = async () => {
         // <p>Loading</p>
 		<div className="blog-page">
 			<h2>Epic Legends Blog Posts</h2>
-			<p>Explore 'Epic Legends,' your ultimate destination for tales of heroism, mythical sagas, and legendary adventures. Dive into timeless stories, uncover legendary characters, and fuel your imagination with epic narratives from every corner of history and fiction.</p>
+			<p>Explore Epic Legends, your ultimate destination for tales of heroism, mythical sagas, and legendary adventures. Dive into timeless stories, uncover legendary characters, and fuel your imagination with epic narratives from every corner of history and fiction.</p>
 			<div className="posts">
 				{posts.map((post: any, idx: number) => {
                     console.log("Post")

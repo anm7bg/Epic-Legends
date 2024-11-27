@@ -13,7 +13,7 @@ export default function Home() {
       <div className="hero">
         <h2>Epic Legernds</h2>
         <p>
-        "Epic Legends - Discover a world of heroic tales, mythical adventures, and legendary stories. Explore captivating sagas, timeless myths, and epic journeys that inspire and ignite the imagination. Your gateway to legendary storytelling awaits!"
+        Epic Legends - Discover a world of heroic tales, mythical adventures, and legendary stories. Explore captivating sagas, timeless myths, and epic journeys that inspire and ignite the imagination. Your gateway to legendary storytelling awaits!
         </p>
         <Link href="/blog" className="btn">
           Read Blog Posts

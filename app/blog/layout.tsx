@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     default: "Epic Legends - Posts",
     template: "Epic Legends - Posts",
   },
-  description: "Explore 'Epic Legends,' your ultimate destination for tales of heroism, mythical sagas, and legendary adventures. Dive into timeless stories, uncover ...",
+  description: "Explore Epic Legends, your ultimate destination for tales of heroism, mythical sagas, and legendary adventures. Dive into timeless stories, uncover ...",
   icons: {
     icon: "/favicon.ico",
   },
