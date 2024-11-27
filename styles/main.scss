@@ -1,0 +1,47 @@
+body {
+    .site-logo {
+        display: block;
+        padding: 10px;
+    }
+    .youtube-icon {
+        color: red !important;
+    }
+    .fb-icon {
+        color: #0866FF !important;
+    }
+    .main-logo {
+        max-width: none;
+    }
+    
+    .posts {
+        >div {
+            display: inline-block;
+            width: 20%;
+            margin: 20px;
+            padding: 10px;
+        }
+    }
+    
+    .post-image {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        .posts {
+            >div {
+                display: block;
+            }
+        }
+    }
+  }
+
+html.light {
+    body {
+        .post-page-title, .home-page-title {
+            color: #000;
+        }
+    }
+}
