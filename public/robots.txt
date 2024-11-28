@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://epiclegends24.com/
+
+# Sitemaps
+Sitemap: https://epiclegends24.com/sitemap.xml
