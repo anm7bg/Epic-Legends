@@ -25,7 +25,7 @@ export async function getPosts() {
   return data?.category?.posts?.nodes;
 }
 
-export async function getPostBySlug(slug: string) {
+export async function getPostBySlug(postSlug: string) {
   const data = await fetchAPI(
     `query GetPost($id: ID = "") {
     post(id: $id, idType: SLUG) {
@@ -41,7 +41,7 @@ export async function getPostBySlug(slug: string) {
   }`,
     {
       variables: {
-        id: slug,
+        id: postSlug,
       },
     }
   );
