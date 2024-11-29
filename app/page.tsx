@@ -15,8 +15,8 @@ export default function Home() {
         <p>
         Epic Legends - Discover a world of heroic tales, mythical adventures, and legendary stories. Explore captivating sagas, timeless myths, and epic journeys that inspire and ignite the imagination. Your gateway to legendary storytelling awaits!
         </p>
-        <Link href="/blog" className="btn">
-          Read Blog Posts
+        <Link href="/legends" className="btn">
+          Legends
         </Link>
       </div>
     </section>
